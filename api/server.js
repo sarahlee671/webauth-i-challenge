@@ -12,7 +12,7 @@ server.use(express.json());
 server.use(cors());
 
 server.get('/', (req, res) => {
-  res.send("It's alive!");
+  res.send("It's working!");
 });
 
 server.use('/api/users', usersRouter);
